@@ -69,7 +69,7 @@ export-env {
         }
     }
 
-    let virtual_env = '/home/traore-hannatou/Reprise_S5/Django/suivi_stage/.venv'
+    let virtual_env = '/home/traore/Dossier_3/Reprise_S5/Django/suivi_stage/.venv'
     let bin = 'bin'
     let path_name = if (has-env 'Path') { 'Path' } else { 'PATH' }
     let venv_path = ([$virtual_env $bin] | path join)

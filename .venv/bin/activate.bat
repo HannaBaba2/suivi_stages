@@ -26,7 +26,7 @@
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-@for %%i in ("/home/traore-hannatou/Reprise_S5/Django/suivi_stage/.venv") do @set "VIRTUAL_ENV=%%~fi"
+@for %%i in ("/home/traore/Dossier_3/Reprise_S5/Django/suivi_stage/.venv") do @set "VIRTUAL_ENV=%%~fi"
 
 @set "VIRTUAL_ENV_PROMPT=suivi-stage"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (

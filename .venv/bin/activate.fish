@@ -79,7 +79,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/traore-hannatou/Reprise_S5/Django/suivi_stage/.venv'
+set -gx VIRTUAL_ENV '/home/traore/Dossier_3/Reprise_S5/Django/suivi_stage/.venv'
 if string match -qr 'CYGWIN|MSYS|MINGW' (uname); and command -s cygpath >/dev/null
     set -gx VIRTUAL_ENV (cygpath -u "$VIRTUAL_ENV")
 end

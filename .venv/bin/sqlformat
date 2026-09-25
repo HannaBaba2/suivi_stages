@@ -1,4 +1,4 @@
-#!/home/traore-hannatou/Reprise_S5/Django/suivi_stage/.venv/bin/python
+#!/home/traore/Dossier_3/Reprise_S5/Django/suivi_stage/.venv/bin/python
 # -*- coding: utf-8 -*-
 import sys
 from sqlparse.__main__ import main
